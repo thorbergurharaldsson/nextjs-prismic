@@ -1,0 +1,75 @@
+{
+  "slices": {
+    "components": {
+      "test_slice": {
+        "library": "slices",
+        "id": "test_slice",
+        "name": "TestSlice",
+        "description": "TestSlice",
+        "model": {
+          "id": "test_slice",
+          "type": "SharedSlice",
+          "name": "TestSlice",
+          "description": "TestSlice",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TestSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "test_slice",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "E-enable plug-and-play mindshare",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Ad ad anim laboris velit deserunt exercitation magna elit aute occaecat nostrud. Ad aliquip qui aliqua voluptate Lorem. Velit culpa ad est laborum eiusmod dolor dolore pariatur nisi.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}
